@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SafeTrujillo</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <div class="logo">
+            🛡️ SafeTrujillo
+        </div>
+
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#estadisticas">Estadísticas</a>
+            <a href="#mapa">Mapa</a>
+            <a href="#safeia">SafeIA</a>
+            <a href="#nosotros">Nosotros</a>
+        </nav>
+
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>SafeTrujillo</h1>
+
+            <p>
+                Tu comunidad informada, tu ciudad más segura.
+            </p>
+
+            <a href="#mapa" class="btn">
+                Explorar mapa
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ESTADÍSTICAS -->
+    <section class="stats reveal" id="estadisticas">
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="150">0</h2>
+            <p>Incidentes Analizados</p>
+        </div>
+
+        <div class="stat-card">
+            <h2 class="counter" data-target="6">0</h2>
+            <p>Distritos Cubiertos</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>2023-2026</h2>
+            <p>Periodo de Estudio</p>
+        </div>
+
+        <div class="stat-card">
+            <h2>SafeIA</h2>
+            <p>Análisis Inteligente</p>
+        </div>
+
+    </section>
+
+    <!-- MAPA -->
+    <section class="mapa-preview reveal" id="mapa">
+
+        <h2>Mapa de Riesgo de Trujillo</h2>
+
+        <p>
+            Visualización preliminar de zonas monitoreadas.
+        </p>
+
+        <div id="map"></div>
+<p class="actualizacion">
+    Última actualización: Junio 2026
+</p>
+    </section>
+
+    <!-- SAFE IA -->
+    <section class="safeia reveal" id="safeia">
+
+        <h2>🤖 SafeIA</h2>
+
+        <p>
+            Sistema inteligente de análisis predictivo basado en los reportes recopilados.
+        </p>
+
+        <div class="safeia-card">
+
+            <h3>Análisis de Seguridad</h3>
+
+            <div id="resultadoIA">
+
+                <strong>SafeIA lista para analizar.</strong>
+
+                <p>
+                    Selecciona un distrito en el mapa para obtener información detallada.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="nosotros reveal" id="nosotros">
+
+        <h2>👥 Equipo del Proyecto</h2>
+
+        <p>
+            SafeTrujillo fue desarrollado como una propuesta tecnológica
+            para apoyar la visualización y análisis de riesgos urbanos
+            en la ciudad de Trujillo.
+        </p>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <h3>SafeTrujillo</h3>
+
+        <p>
+            Proyecto académico - 2026
+        </p>
+
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
